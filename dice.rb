@@ -1,5 +1,5 @@
 def dice()
-  p Random.rand(6) + 1
+  Random.rand(6) + 1
 end
 
-dice()
+puts dice()
