@@ -10,4 +10,9 @@ def prime?(num)
   return true
 end
 
-puts "#{ARGV[0].to_i} is prime?",prime?(ARGV[0].to_i)
+if ARGV[0] == nil
+  puts "error: no input."
+else
+  num = ARGV[0].to_i
+  puts "#{num} is prime?",prime?(num)
+end
