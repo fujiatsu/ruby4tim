@@ -1,5 +1,10 @@
 def cels2fahr(cels)
-  cels * 9 / 5 + 32
+  9 * cels / 5 + 32
 end
 
-puts "#{ARGV[0].to_f} ℃ = #{cels2fahr(ARGV[0].to_f)} ℉"
+if ARGV[0] == nil
+  puts "error: no input."
+else
+  cels = ARGV[0].to_f
+  puts "#{cels} cels = #{cels2fahr(cels)} fahr."
+end
