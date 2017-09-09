@@ -1,11 +1,13 @@
-def dice()
+def dice
   Random.rand(6) + 1
 end
 
-sum = 0
-
-10.times do |i|
-  sum += dice()
+def dice10
+  sum = 0
+  10.times {
+    sum += dice
+  }
+  sum
 end
 
-puts sum
+puts dice10
