@@ -1,12 +1,3 @@
-a = Array.new
-sum = 0
-
-100.times do |i|
-  a << i + 1
-end
-
-a.each{|elem|
-  sum += elem
-}
+sum = [*1..100].inject{|sum, num| sum + num}
 
 print "sum = #{sum}\n"
