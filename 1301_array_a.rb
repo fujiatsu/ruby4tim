@@ -1,7 +1,3 @@
-a = Array.new
-
-100.times do |i|
-  a << i + 1
-end
+a = [*1..100]
 
 print "a = #{a}\n"
