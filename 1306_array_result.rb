@@ -1,9 +1,5 @@
-ary = Array.new
+ary = [*1..100]
 result = Array.new
-
-100.times{|i|
-  ary << i+1
-}
 
 10.times{|i|
   result << ary[10 * i, 10]
