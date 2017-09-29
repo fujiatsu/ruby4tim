@@ -1,3 +1,3 @@
-str = "Ruby is an object oriented progamming language"
-ary = str.split(/ /)
-puts ary
+str = "Ruby is an object oriented programming language"
+
+puts str.split(/ /)
