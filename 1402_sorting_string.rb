@@ -1,4 +1,3 @@
-str = "Ruby is an object oriented progamming language"
-ary = str.split(/ /)
-sortedAry = ary.sort
-puts sortedAry
+str = "Ruby is an object oriented programming language"
+
+puts str.split(/ /).sort
