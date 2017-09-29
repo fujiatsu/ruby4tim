@@ -1,9 +1,3 @@
-str = "Ruby is an object oriented progamming language"
-length = 0
-while length < str.length
-  if str[length] == " "
-    str[length + 1] = str[length + 1].upcase
-  end
-  length += 1
-end
-puts str
+str = "Ruby is an object oriented programming language"
+
+puts str.split(/ /).map{|x| x.capitalize}.join(" ")
